@@ -1,0 +1,328 @@
+<!--
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>ITSE 1372</title>
+<style type="text/css">
+a:link {color:#0000ff;}
+a:visited {color:#cc00cc;}
+a:active {color:#ff0000;}
+a:hover {color: #cc0000;font-weight: bold;text-decoration: none;}
+
+pre {
+    font-family: courier;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #333;
+}
+
+p{color:black;}
+h1{color:black}
+h2{color: black}
+h3{color: black}
+b{color: #000000}
+strong{color: #000000}
+blockquote{color: purple}
+ul{color: black}
+ol{color: black}
+table{border: 1px solid black}
+th{border: 1px solid black}
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 16pt;
+	background-color: #FEFFF0;}
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	background-color: #FFFF00;
+}
+</style>
+</head>
+
+<body style="font-size: 16pt;">
+
+<center>
+<h2>ITSE 1372</h2>
+</center>
+
+<center>
+<h2 style="text-align: center;">Project 12</h2>
+<h2 style="text-align: center;">Pandas</h2>
+</center>
+<p>File Proj12.htm</p>
+<p>Revised 04/19/25</p>
+
+<p>R. G. Baldwin instructor<br/>
+ </p>
+
+<center>
+<h2>Read The Instructions Carefully</h2>
+</center>
+
+<p>A detailed set of instructions is provided in a separate document titled <strong>Instructions for Downloading and Submitting Assignments </strong> that you can
+view in the orientation material for this course.</p>
+<p>I recommend that you study those instructions <strong>very carefully</strong> 
+and make yourself a checklist to ensure that you meet all of the 
+requirements before submitting your project.</p>
+<p>Failure to follow the instructions to the letter usually results in a
+failing grade, normally zero. The general instructions in that document apply
+to this project. In addition, this document provides specific
+instructions for the project. </p>
+
+<p>If you have any questions regarding instructions, please ask them at least
+one week prior to the assignment deadline. Don't end up with a bad grade due to the
+fact that you didn't understand the instructions. </p>
+
+<p>Every semester there are one or two students who are surprised and saddened
+to learn that I really do mean that you must follow the instructions and meet
+the specifications exactly or you won't get credit for the assignment. Don't be
+one of those students.</p>
+
+<center>
+<h2>Typographical Errors</h2>
+</center>
+<p>If you discover any typographical errors in this document, please let me know
+so that I can correct the error and notify all of the students.</p>
+<h2 class="auto-style1">Specific Project Requirements</h2>
+<hr/>
+<p>Proj12 Copyright 2023 R.G.Baldwin</p>
+	  <p>This assignment requires you to demonstrate much of what you have 
+	  learned throughout this and the prerequisite course. It may also require 
+	  you to do online research beyond that which is explicitly covered in the 
+	  eBook.</p>
+	  <p>If there is anything that you don't understand about 
+the requirements of this assignment, please ask 
+for clarification well in advance of the due date. 
+However this assignment is an end-of-semester assessment 
+of what you have learned. Please don't ask me to provide 
+you with the required code for your file named 
+<strong>Proj12Runner.py</strong>. Because this assignment is due at the end of 
+	  the semester, there will be no opportunity for late submissions after the 
+	  due date deadline.</p>
+<p><strong><a name="THE_DELIVERABLES">THE DELIVERABLES</a></strong></p>
+<p>This assignment requires that you submit a zip file named <strong>
+Asg12.YourName.zip</strong> containing the following files:</p>
+<ul>
+	<li><strong>Proj12Runner.py</strong></li>
+	<li>A screenshot file named <strong>Compare01.png</strong> or <strong>
+	Compare01.jpg</strong> (your choice)</li>
+	<li>A screenshot file named <strong>Compare02.png</strong> or <strong>
+	Compare02.jpg</strong> (your choice)</li>
+	<li>A screenshot file named <strong>Compare03.png</strong> or <strong>
+	Compare03.jpg</strong> (your choice)</li>
+	<li>A screenshot file named <strong>Compare04.png</strong> or <strong>
+	Compare04.jpg</strong> (your choice)</li>
+	<li>A screenshot file named <strong>Compare05.png</strong> or <strong>
+	Compare05.jpg</strong> (your choice)</li>
+	<li>A screenshot file named <strong>Compare06.png</strong> or <strong>
+	Compare06.jpg</strong> (your choice)</li>
+	<li>A screenshot file named <strong>Compare07.png</strong> or <strong>
+	Compare07.jpg</strong> (your choice)</li>
+	<li>A screenshot file named <strong>Compare08.png</strong> or <strong>
+	Compare08.jpg</strong> (your choice)</li>
+</ul>
+	  <p><strong>PROGRAM SPECIFICATIONS</strong></p>
+	  <p>The zip file that you downloaded contains a dataset file named <strong>
+	  data.csv</strong>.</p>
+		<p>You must submit a Python file named <strong>Proj12Runner.py</strong> 
+		and any other necessary Python source code files to 
+		run under control of the driver source code contained 
+		in the file named <strong>Proj12.py</strong>. Your code must read the 
+		data from the file named <strong>data.csv</strong> and produce two items 
+		of screen output. Example screen output is shown in 
+		<a href="#Case_1">Case 1</a>, <a href="#Case_2">Case 2</a>, 
+		<a href="#Case_3">Case 3</a>, and <a href="#Case_4">Case 4</a> 
+		below.</p>
+<p>The csv data file must be in the same folder as the Python source 
+		code files when the program is executed.</p>
+	  <p>The screen output for each case consists of two parts. One part is a 
+	  graph that appears on the screen. See <a href="#Figure_1b">Figure 1b</a> 
+	  for example. The other part is text that appears on the command-line 
+	  screen or the system console. See <a href="#Figure_1a">Figure 1a</a> for 
+	  example. The output on the command-line screen shows a variety of results 
+	  based on the contents of the dataset and the number of rows of data being 
+	  plotted. The name of the data file and the number of rows of data being 
+	  plotted are specified by command-line arguments 
+	  when the program is executed as explained <a href="#format">later</a>.</p>
+	  <p>The program must terminate and return control to the operating system 
+	  when control reaches the end of the file named <strong>Proj12.py</strong>. 
+	  In other words, infinite loops are not allowed.</p>
+		<p>Do not modify the code in the file named <strong>Proj12.py</strong>. Do not copy the code from the file named <strong>Proj12.py</strong> into your file named 
+	  <strong>Proj12Runner.py</strong>.</p>
+	  <p>The script in the file named <strong>Proj12.py</strong> requires that you enter two command-line arguments 
+	  separated by a comma in the following <a name="format">format</a>:</p>
+	  <pre>data.csv,(Some positive numeric value less than 121.)</pre>
+	  <p>The first command-line argument specifies the name of the data file. The 
+	  second command-line argument specifies how many rows of data are 
+	  to be plotted after collapsing rows with duplicate dates as discussed 
+	  <a href="#collapsed_">later</a>.</p>
+<p>In all cases, the rows of data that are to be plotted must include data from 
+the first row of data in the raw dataset that looks like the following:</p>
+<p>"21 Sep 2022","3:50 pm","126","72","64","-","-"</p>
+	  <p>You need to include code to rename two of the data columns as 
+	  shown below:</p>
+	  <pre><span>Change Systolic (mmHg) to Syst</span>
+<span>Change Diastolic (mmHg) to Dias </span>
+</pre>
+<p>The dataset doesn't contain a row for every date. Thus there are gaps in the 
+data and those gaps must be reflected in the graph.</p>
+<p>In some cases, the 
+	  dataset may contain multiple rows for the same date. In those cases, each 
+	  group of multiple rows having the same date must be <a name="collapsed_">collapsed</a> into a single 
+	  row with the data values for that single row being the mean of the values 
+	  for the multiple rows in the group.</p>
+	  <p>The required output depends on the command-line arguments that are 
+	  entered when the program is run. Four examples with argument values of 31, 61, 
+	  91, and 111 are shown in <a href="#Case_1">Case 1</a>, <a href="#Case_2">
+	  Case 2</a>, <a href="#Case_3">Case 3</a>, and <a href="#Case_4">Case 4</a> below. You can use those 
+	  cases to test your program. </p>
+<p>You should also test your program with other cases as well to ensure 
+consistent behavior regardless of the number of rows. Your 
+	  program must not fail for any numeric value in the second command-line argument, but need not 
+	  produce meaningful results for negative arguments, arguments less than ten, or arguments greater 
+	  than 120.</p>
+	  <p>Your instructor will use a <a name="different_command-line_argument">
+	  <span class="auto-style2">different command-line argument</span></a> specifying 
+	  the number of rows to plot 
+	  than any of those shown below to test your program.</p>
+<p>Determining the correct tick marks and labels can be challenging. It might be 
+helpful for you to print the data you intend to plot and compare the tick labels in 
+the examples with the date values in the data. This process can help you deduce the algorithm required for selecting and displaying tick marks and labels. Be aware that Python’s handling of truncation in integer division may cause 
+<a href="#either_five_or_six">small variations</a> in the specific dates chosen as tick marks.</p>
+	  <p>The graphs that you create must be date or calendar sensitive. By this 
+	  I mean that the positions of the tick marks on the horizontal axis must 
+	  represent sequential days of the year. As illustrated by the left end of 
+	  the plot shown in <a href="#Figure_2b">Figure 2b</a>, there must be a horizontal gap for each day 
+	  for which there is no data.</p>
+<p>Each data point must be represented by an "o" marker with a marker size of 4. 
+The data points must be connected by straight lines. There must be no data 
+points plotted for those days for which there is no data. </p>
+<p>The graph must plot three curves with different colors. Each curve is a plot 
+of the data from one of the columns in the csv file. The colors aren't 
+critical as long as they are different. Let the system decide which colors to 
+use. </p>
+<p>Each curve must begin and end on a data point and a vertical grid line. You 
+should test your program against that requirement by running your code with a 
+variety of command-line arguments between 10 and 120 inclusive.</p>
+<p>There must be a legend in the center as shown in the examples below.</p>
+<p>The horizontal tick marks and their corresponding vertical grid lines must 
+align precisely with the data points. The number of data points must equal the 
+number of rows being plotted. The total number of tick marks and vertical grid 
+lines should be calculated as the integer result of dividing the number of rows 
+by 5. As a result of truncation during integer division, the spacing between 
+vertical grid lines will typically contain <a name="either_five_or_six">either 
+five or six</a> data points. The x-axis tick labels <strong>
+<span class="auto-style2">must match the values and 
+positions</span></strong> shown in all four examples provided below. Avoid 
+hardcoding specific dates for the tick labels in your code. Instead, implement a 
+generalized solution that dynamically calculates and displays accurate tick 
+marks and labels for any number of rows used during testing.</p>
+	  <p><strong>OTHER THINGS TO NOTE ABOUT YOUR OUTPUT</strong></p>
+	  <p>The xaxis label and the yaxis label must match those shown.</p>
+	  <p>Your name must appear in the title at the top.</p>
+	  <p>The xtick labels are in chronological order from left to right.</p>
+	  <p>The xtick labels must be rotated 90 degrees as shown.</p>
+	  <p>The format of the dates in the tick labels is not the same as the 
+	  format of the same dates in the csv file.</p>
+	  <p>Make sure that your command-line outputs are presented in a format that is identical to 
+	  that shown 
+	  in <a href="#Figure_1a">Figure 1a</a> 
+	  including text, blank lines, etc. I 
+	  will place your command-line output and my command-line 
+	  output side-by-side in order to compare the numeric values produced by 
+	  your program and mine and I expect them to line up. </p>
+	  <p>If your numeric output values don't match my 
+	  numeric output values, then your program is not correct. <em>(You only need to 
+	  match to two digits to the right of the decimal point for those values 
+	  having two or more digits to the right of the decimal point. In other 
+	  words don't spend time and effort trying to control the number of digits to the right 
+	  of the decimal point.)</em></p>
+	  <p>The command-line output is provided to help you confirm that your code 
+	  is performing as required. Make sure that the <em><strong>Mean values for columns of interest in rows to 
+	  plot</strong></em> match before going any further. If they don't match, nothing after 
+	  that will matter even if your code after that is correct.</p>
+<p>The bottom ytick label and the associated grid line must match the
+	  <strong><em>Minimum data value</em></strong> shown on the command-line screen. The 
+	  ytick labels and grid lines above that must progress in units of ten.</p>
+	  <p>One of the curves must touch the bottom grid line.</p>
+	  <p>In order to achieve size and shape consistency, the code to set the 
+	  size and show the graph is contained in the file named <strong>Proj12.py</strong>. </p>
+<p>You <strong>must</strong> <a name="use_the_following_code">use the following 
+code</a> to create the figure:</p>
+<pre>
+fig, ax = plt.subplots(1,1,
+            facecolor='0.75',linewidth=3,edgecolor='Red')             </pre>
+	  <p>Do not set the size or include the following statement in your code:</p>
+	  <pre>plt.show()</pre>
+	  <p>Your code must return the <strong>ax</strong> value to the code in the 
+	  file named <strong>Proj12.py</strong>.</p>
+	  <p>Be sure that your actual name appears in the certification 
+	  and the graph title as shown in the examples below.</p>
+<p><strong>SUBMITTING YOUR ASSIGNMENT</strong></p>
+<p>Encapsulate the required files in a zip file named <strong>Asg12.YourName.zip</strong> 
+and submit the zip file as a Blackboard assignment. </p>
+<p>Your zip file must contain the screenshot files listed above under <a href="#THE_DELIVERABLES">THE DELIVERABLES</a>.</p>
+<p>Four of those files must be a screenshots showing a stacked comparison of the 
+output from your script with the given files identified by <a href="#Figure_1b">
+Figure 1b</a>, <a href="#Figure_2b">Figure 2b</a>, <a href="#Figure_3b">Figure 
+3b</a>, and <a href="#Figure_4b">Figure 4b</a>. Place each of the given files on 
+the top of the stack, place your corresponding output on the bottom of the 
+stack, and take the screenshot. </p>
+<p>The other four files must be screenshots showing a side-by-side comparison of 
+the output from your script with the given files identified by
+<a href="#Figure_1a">Figure 1a</a>, <a href="#Figure_2a">Figure 2a</a>,
+<a href="#Figure_3a">Figure 3a</a>, and <a href="#Figure_4a">Figure 4a</a>. 
+Place each of the given files on the left, place your corresponding output on 
+the right, and take the screenshot. Insofar as possible, you need to position 
+the two such that each line on the left lines up with the corresponding line on 
+the right.</p>
+<p>The purpose of the screenshots is to confirm that your output matches the 
+required output as described in the previous paragraphs. If it doesn't match, 
+don't bother submitting it because you won't get credit for the assignment. If 
+it doesn't match and you submit anyway, you will need to correct your code and 
+resubmit. You will simply waste time and you may end up failing to submit a correct solution before the deadline.</p>
+<p><a name="Case_1"><strong>Case 1</strong></a></p>
+<p><strong><a name="Figure_1a">Figure 1a</a>. RequiredOutput01a.png</strong></p>
+<p>Rows to plot = 31.</p>  
+<p>
+
+<img alt="RequiredOutput01a" height="515" src="RequiredOutput01a.png" width="767"/></p>
+<p><strong><a name="Figure_1b">Figure 1b</a>. RequiredOutput01b.png</strong></p>
+<p>
+<img alt="RequiredOutput01b.png" height="400" src="RequiredOutput01b.png" width="700"/></p>
+<p><a name="Case_2"><strong>Case 2</strong></a></p>
+	  <p><strong><a name="Figure_2a">Figure 2a</a>. RequiredOutput02a.png</strong></p>
+<p>Rows to plot = 61.</p>
+<p>
+<img alt="RequiredOutput02a" height="517" src="RequiredOutput02a.png" width="768"/></p>
+<p><strong><a name="Figure_2b">Figure 2b</a>. RequiredOutput02b.png</strong></p>  
+<p>
+<img alt="RequiredOutput02b.png" height="400" src="RequiredOutput02b.png" width="700"/></p>
+<p><strong><a name="Case_3">Case 3</a></strong></p>
+	  <p><strong><a name="Figure_3a">Figure 3a</a>. RequiredOutput03a.png</strong></p>
+<p>Rows to plot = 91.</p>
+<p>
+<img alt="RequiredOutput03a" height="517" src="RequiredOutput03a.png" width="767"/></p>
+<p><strong><a name="Figure_3b">Figure 3b</a>. RequiredOutput03b.png</strong></p>  
+<p>
+<img alt="RequiredOutput03b" height="400" src="RequiredOutput03b.png" width="700"/></p>
+<p><strong><a name="Case_4">Case 4</a></strong></p>
+	  <p><strong><a name="Figure_4a">Figure 4a</a>. RequiredOutput04a.png</strong></p>
+<p>Rows to plot = 111.</p>
+<p>
+<img alt="RequiredOutput04a" height="518" src="RequiredOutput04a.png" width="769"/>&nbsp;</p>
+<p><strong><a name="Figure_4b">Figure 4b</a>. RequiredOutput04b.png</strong></p>  
+<p>
+<img alt="RequiredOutput04b" height="400" src="RequiredOutput04b.png" width="700"/></p>
+<p>-end-
+ </p>
+
+<p>&nbsp;</p>
+
+</body>
+</html>
