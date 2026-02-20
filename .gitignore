@@ -1,3 +1,8 @@
+# Image file of generated graph. Will be different each time program is run
 RequiredOutputZZZ.png
+
+# Folder of screenshots comparing runs to required outputs. Will never change
 Output Comparison Screenshots
+
+# Folder of required output to compare test runs to. Will never change
 Required Output Images
